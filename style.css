@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Fondo y tipografía general */
+body {
+    background-color: #665959;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Centrar el contenido y ajustar el tamaño */
+table {
+    width: 80%; /* Cambiado el ancho al 80% */
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+}
+
+/* Ajuste para las celdas */
+td {
+    vertical-align: top;
+    text-align: center; /* Centrar contenido dentro de las celdas */
+}
+td{
+    vertical-align: top;
+}
+
+/* Estilos para las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul{
+    list-style: none; /*estilos de la lista*/
+}
+ul li{
+    font-family:'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; /*Tipo de letra*/
+    font-size: 22px; /*Tamaño de letra*/
+    height:60px ; /*Altura de cada opción de la lista*/
+}
+
+ul li a{
+    height: 60px; /*Altura*/
+    background-color: #333; /*Color de fondo*/
+    display:block;
+    border-left: 10px solid #a0d2f3(8, 96, 179);
+    border-right: 5px; /*Separación izquierda del texto*/
+    text-decoration: none;
+    color:#999999
+}
+
+ul li a:hover{
+    margin-left: 10px; /*separacion del lado izquierdo*/
+    color: #b9b7b7; /*Color de letra*/
+    background-color: #0b1741; /*Color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*Sombra*/
+    transform: rotate(4deg); /*Movimiento de rotación*/
+    -moz-transform: rotate(4deg) ;
+    -webkit-transform: rotate(4deg);
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos para los divs */
+div {
+    color: #c9c7c7;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 2px solid #0c0c0c;
+    border-radius: 15px 0 15px 0;
+    background-color: #999999;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+/* Ajustes para las imágenes */
+img {
+    display: block;
+    margin: 0 auto; /* Centrar las imágenes */
+    max-width: 100%;
+}
+
+/* Centrando texto en encabezados y párrafos */
+h2, p {
+    text-align: center;
+}
